@@ -6,7 +6,7 @@ import { useRef, useState } from "react";
 export const Route = createFileRoute("/prediction")({
   head: () => ({
     meta: [
-      { title: "Live Prediction — NeuralDrive" },
+      { title: "Live Prediction — Sfwan Vision" },
       { name: "description", content: "Upload a driving frame and see the model classify it in real time." },
     ],
   }),
