@@ -19,7 +19,7 @@ export function Navbar() {
             <Brain className="h-5 w-5 text-background" />
           </div>
           <div className="leading-tight">
-            <div className="text-sm font-bold gradient-text">NeuralDrive</div>
+            <div className="text-sm font-bold gradient-text">Sfwan Vision</div>
             <div className="text-[10px] uppercase tracking-widest text-muted-foreground">Perceptron · MLP</div>
           </div>
         </Link>

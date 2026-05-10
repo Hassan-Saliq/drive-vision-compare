@@ -5,7 +5,7 @@ import { Database, Cpu, Network, BarChart3, CheckCircle2, ArrowRight } from "luc
 export const Route = createFileRoute("/modules")({
   head: () => ({
     meta: [
-      { title: "Modules — NeuralDrive" },
+      { title: "Modules — Sfwan Vision" },
       { name: "description", content: "The four modules that make up the Perceptron vs MLP capstone pipeline." },
     ],
   }),
@@ -41,7 +41,7 @@ const modules = [
 
 function ModulesPage() {
   return (
-    <Section eyebrow="Pipeline" title="Project modules" description="A deeper look at each stage of the NeuralDrive capstone.">
+    <Section eyebrow="Pipeline" title="Project modules" description="A deeper look at each stage of the Sfwan Vision capstone.">
       <div className="space-y-6">
         {modules.map((m, i) => (
           <div key={m.title} className="glass rounded-2xl p-6 md:p-8 hover-lift gradient-border animate-fade-up" style={{ animationDelay: `${i * 80}ms` }}>

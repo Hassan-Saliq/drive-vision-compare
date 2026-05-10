@@ -11,7 +11,7 @@ import { Activity, Clock, Target, Zap } from "lucide-react";
 export const Route = createFileRoute("/comparison")({
   head: () => ({
     meta: [
-      { title: "Performance Comparison — NeuralDrive" },
+      { title: "Performance Comparison — Sfwan Vision" },
       { name: "description", content: "Detailed Perceptron vs MLP performance dashboard." },
     ],
   }),

@@ -16,7 +16,7 @@ export function Footer() {
             <div className="grid h-9 w-9 place-items-center rounded-lg bg-gradient-to-br from-[var(--neon)] to-[var(--violet)] glow">
               <Brain className="h-5 w-5 text-background" />
             </div>
-            <div className="font-bold gradient-text">NeuralDrive</div>
+            <div className="font-bold gradient-text">Sfwan Vision</div>
           </div>
           <p className="text-sm text-muted-foreground max-w-xs">
             A capstone research project comparing Perceptron and Multilayer Neural Network architectures for autonomous driving classification.
@@ -43,7 +43,7 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-border py-4 text-center text-xs text-muted-foreground">
-        © {new Date().getFullYear()} NeuralDrive · Final Year ML Capstone Project
+        © {new Date().getFullYear()} Sfwan Vision · Final Year ML Capstone Project
       </div>
     </footer>
   );

@@ -15,7 +15,7 @@ import { Section } from "@/components/site/Section";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "NeuralDrive — Perceptron vs MLP for Autonomous Driving" },
+      { title: "Sfwan Vision — Perceptron vs MLP for Autonomous Driving" },
       { name: "description", content: "ML capstone comparing Perceptron and Multilayer Neural Network performance on autonomous driving data." },
     ],
   }),

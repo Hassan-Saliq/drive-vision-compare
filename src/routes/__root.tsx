@@ -52,9 +52,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "NeuralDrive — Perceptron vs MLP for Autonomous Driving" },
+      { title: "Sfwan Vision — Perceptron vs MLP for Autonomous Driving" },
       { name: "description", content: "Final year ML capstone comparing Perceptron and Multilayer Neural Network architectures for autonomous driving classification." },
-      { property: "og:title", content: "NeuralDrive — Perceptron vs MLP" },
+      { property: "og:title", content: "Sfwan Vision — Perceptron vs MLP" },
       { property: "og:description", content: "A futuristic dashboard comparing neural architectures for autonomous driving." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
