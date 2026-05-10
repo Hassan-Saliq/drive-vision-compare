@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   ArrowRight, Activity, BarChart3, Brain, Car, Cpu, Database,
@@ -567,19 +568,19 @@ function Heatmap() {
       <div />
       {labels.map(l => <div key={l} className="text-[10px] text-center text-muted-foreground">{l}</div>)}
       {matrix.map((row, i) => (
-        <>
-          <div key={`l-${i}`} className="text-[10px] text-muted-foreground self-center">{labels[i]}</div>
+        <Fragment key={i}>
+          <div className="text-[10px] text-muted-foreground self-center">{labels[i]}</div>
           {row.map((v, j) => (
             <div
-              key={`${i}-${j}`}
-              className="aspect-square rounded-md grid place-items-center text-[10px] font-mono text-background"
+              key={j}
+              className="aspect-square rounded-md grid place-items-center text-[10px] font-mono"
               style={{ background: `color-mix(in oklab, var(--neon) ${v * 100}%, var(--card))`, color: v > 0.5 ? "var(--background)" : "var(--foreground)" }}
               title={`${labels[i]} × ${labels[j]} = ${v}`}
             >
               {v.toFixed(2)}
             </div>
           ))}
-        </>
+        </Fragment>
       ))}
     </div>
   );
